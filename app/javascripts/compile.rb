@@ -3,6 +3,7 @@
 
 require 'pp'
 require 'yaml'
+=begin
 require 'fssm'
 
 pp "Started monitoring ./src folder. To stop use Ctrl+C."
@@ -34,4 +35,4 @@ FSSM.monitor('./src/', '**/*') do
   end
 
 end
-
+=end
